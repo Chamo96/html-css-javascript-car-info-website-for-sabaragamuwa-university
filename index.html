@@ -1,0 +1,127 @@
+<html>
+<head><title></title>
+
+    <style>
+        ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          background-color: #333333;
+        }
+        
+        li {
+          float: left;
+        }
+        
+        li a {
+          display: block;
+          color: white;
+          text-align: center;
+          padding: 16px;
+          text-decoration: none;
+        }
+        
+        li a:hover {
+          background-color: #111111;
+        }
+
+        h1 {
+          color: white;
+        }
+
+        * {box-sizing:border-box}
+
+        .slider{
+  width: 800px;
+  height: 200px;
+  margin: 100px auto;
+  animation: slide 20s infinite;
+}
+@keyframes slide {
+  0%{
+    background: url(Images/1.jpg);
+  }
+  25%{
+    background: url(Images/2.jpg);
+  }
+  50%{
+    background: url(Images/3.jpg);
+  }
+  75%{
+    background: url(Images/4.jpg);
+  }
+  100%{
+    background: url(Images/1.jpg);
+  }
+}
+
+
+.footer {
+   grid-area: footer;
+   background-color: red;
+   color: white;
+   text-align: center;
+   padding: 25px 0;
+}
+     
+</style>
+
+
+
+</head>
+<body bgcolor="black">
+
+ 
+
+<center><marquee behavior="alternate" direction="down"><font size="30" color="yellow">CarInfo.lk</font></marquee></center><br><br>
+
+
+<ul>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="news.html">News</a></li>
+  <li><a href="videos.html">Videos</a></li>
+  <li><a href="contactus.html">Contact</a></li>
+  <li><a href="aboutUs.html">About</a></li>
+</ul>
+
+
+<h1><center>Welcome!</center></h1>
+
+<div class="slider"></div>
+
+
+<h1><center>Latest Car Images</center></h1>
+
+<table border="0" align="center" cellpadding="10">
+
+<tr><td><img src="images/1.jpg" width="400" height="200" align="center" valign="middle"></td>
+<td><img src="images/2.jpg" width="400" height="200" align="center" valign="middle"></td>
+<td><img src="images/3.jpg" width="400" height="200" align="center" valign="middle"></td></tr>
+    
+
+<tr><td><img src="images/4.jpg" width="400" height="200" align="center" valign="middle"></td>
+<td><img src="images/5.jpg" width="400" height="200" align="center" valign="middle"></td>
+<td><img src="images/6.jpg" width="400" height="200" align="center" valign="middle"></td></tr>
+    
+
+<tr><td><img src="images/7.jpg" width="400" height="200" align="center" valign="middle"></td>
+<td><img src="images/8.jpg" width="400" height="200" align="center" valign="middle"></td>
+<td><img src="images/9.jpg" width="400" height="200" align="center" valign="middle"></td></tr>
+    
+      
+</table><br><br><br>
+
+  <audio controls autoplay>
+    <source src="music/carInfo.mp3" type="audio/mpeg">
+  </audio>
+
+
+<br><br>
+<div class="footer">
+  <p>© 2020 Copyright: CarInfo.lk | Ashan Eranda (17APF3254)</p>
+</div>
+
+ 
+  </body>
+</html>

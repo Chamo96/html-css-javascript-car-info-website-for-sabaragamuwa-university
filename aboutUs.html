@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: black;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+ul {
+          list-style-type: none;
+          margin: 0;
+          padding: 0;
+          overflow: hidden;
+          background-color: #333333;
+        }
+        
+        li {
+          float: left;
+        }
+        
+        li a {
+          display: block;
+          color: white;
+          text-align: center;
+          padding: 16px;
+          text-decoration: none;
+        }
+        
+        li a:hover {
+          background-color: #111111;
+        }
+
+        h1 {
+          color: white;
+        }
+
+        .footer {
+   grid-area: footer;
+   background-color: red;
+   color: white;
+   text-align: center;
+   padding: 25px 0;
+    }
+   .header {
+    background-color:black;
+   }
+
+</style>
+</head>
+<body bgcolor="grey">
+
+  <div class="header">
+    <center><marquee behavior="alternate" direction="down"><font size="30" color="yellow">CarInfo.lk</font></marquee></center><br><br>
+  </div>
+
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="news.html">News</a></li>
+        <li><a href="videos.html">Videos</a></li>
+        <li><a href="contactus.html">Contact</a></li>
+        <li><a href="aboutUs.html">About</a></li>
+      </ul>
+
+
+      <div class="about-section">
+        <h1>About Us Page</h1>
+        <p>We are CarInfo.lk.</p>
+        <p>We are an Innovative Startup Sri Lankan Technology Company that focuses on developing the most 
+            beneficial Software Solutions for Sri Lankans. We are fuelled by passion & obsessed with quality. 
+            We hope you enjoy our products as much as we enjoy offering them to you.</p>
+      </div>
+      
+      <h2 style="text-align:center">Our Team</h2>
+      <div class="row">
+        <div class="column">
+          <div class="card">
+            <img src="Images/Ashan1.jpg" alt="Jane" style="width:100%">
+            <div class="container">
+              <h2>Ashan Eranda</h2>
+              <p class="title">CEO & Founder</p>
+              
+              <p>ashan@gmail.com</p>
+              <p><button class="button">Contact</button></p>
+            </div>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <img src="Images/Ashan2.jpg" alt="Mike" style="width:100%">
+            <div class="container">
+              <h2>Mike Nike</h2>
+              <p class="title">Art Director</p>
+              
+              <p>mike@gmail.com</p>
+              <p><button class="button">Contact</button></p>
+            </div>
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <img src="Images/Ashan3.jpg" alt="John" style="width:100%">
+            <div class="container">
+              <h2>John Koller</h2>
+              <p class="title">Designer</p>
+              
+              <p>john@gmail.com</p>
+              <p><button class="button">Contact</button></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <br><br><br><br>
+      <div class="footer">
+        <p>© 2020 Copyright: CarInfo.lk | Ashan Eranda (17APF3254)</p>
+      </div>
+      
+
+</body>
+</html>
+
+
+
